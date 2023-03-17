@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://7zmht7.sharepoint.com/sites/SPFx/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "4daa3565-4716-470a-b62a-4632d2f9b98c",
+        "PageType": 8,
+        "RootFolder": "/sites/SPFx/Lists/form",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_NewForm": {
+      "pageUrl": "https://7zmht7.sharepoint.com/sites/SPFx/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "4daa3565-4716-470a-b62a-4632d2f9b98c",
+        "PageType": 8,
+        "RootFolder": "/sites/SPFx/Lists/form",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_EditForm": {
+      "pageUrl": "https://7zmht7.sharepoint.com/sites/SPFx/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "4daa3565-4716-470a-b62a-4632d2f9b98c",
+        "PageType": 6,
+        "RootFolder": "/sites/SPFx/Lists/form",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_ViewForm": {
+      "pageUrl": "https://7zmht7.sharepoint.com/sites/SPFx/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "4daa3565-4716-470a-b62a-4632d2f9b98c",
+        "PageType": 4,
+        "RootFolder": "/sites/SPFx/Lists/form",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}
